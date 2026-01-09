@@ -1,19 +1,45 @@
-# seo quick checklist
+# SEO QUICK CHECKLIST
+
 
 ## 📊 Analytics & Monitoring tools
+
+## core tools
 - [Google Search Console](https://search.google.com/search-console/welcome)
 - [Google Analytics (GA4)](https://analytics.google.com/analytics/web/#/a198874255p307797030/reports/intelligenthome)
 - [Google PageSpeed Insights](https://pagespeed.web.dev/)
 - [Bing Webmaster Tools](https://www.bing.com/webmasters/about)
+
+## core, optional
+- [SEOquake](https://backlinko.com/tools/seo-checker)
+- [Ubersuggest](https://neilpatel.com/ubersuggest/)
+
+## vendor
 - [Semrush](https://www.semrush.com/)
 - [Ahrefs](https://ahrefs.com/)
-- [SE Ranking](https://seranking.com/)
-- [Moz Pro](https://moz.com/products/pro)
+- [AccuRanker](https://www.accuranker.com/)
 - [Screaming Frog SEO Spider](https://www.screamingfrog.co.uk/seo-spider/)
+- [Moz Pro](https://moz.com/products/pro)
+- [SE Ranking](https://seranking.com/)
 - [SEObility](https://www.seobility.net/en/)
 - [SEOptimer](https://www.seoptimer.com/)
-- [AccuRanker](https://www.accuranker.com/)
 - [Keyword.com](https://keyword.com/)
+
+
+## 📌 Starter Setup Workflow
+-   Connect Google Search Console + GA4
+-   → submit sitemap, check coverage, set goals/events.
+- 
+-   Run an initial audit with Semrush/Ahrefs
+-   → fix high-impact technical errors.
+- 
+-   Check CWV with PageSpeed Insights
+-   → improve LCP, FID, CLS.
+- 
+-   Track keyword positions (AccuRanker or Semrush) weekly
+-   → spot ranking drops.
+- 
+-   Monitor traffic & conversions in GA4
+-   → tie SEO efforts to real results.
 
 
 ## 🚨 indexing & crawlability (seo blockers)
