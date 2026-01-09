@@ -127,3 +127,20 @@
 - ssr → content pages
 - ssg → static pages
 - csr → dashboards / tools
+## 🏷️ 5. titles, meta & head tags
+- ✅ 1. missing or bad (title) (🚨 blocker)
+- add 1 unique title per page
+- 50–60 chars, main keyword first
+- ✅ 2. missing or weak meta description
+- write 150–160 chars
+- describe benefit, not keywords
+- ✅ 3. no h1 or multiple h1 tags
+- use exactly one h1
+- match page intent (not branding)
+- ✅ 4. wrong or missing canonical url (🚨 blocker)
+- add self-referencing canonical
+- ✅ 5. accidental noindex (🚨 critical)
+- remove noindex from public pages
+- verify x-robots-tag headers
+- ✅ 6. missing og / social meta (high ctr impact)
+- add og title, description & image
