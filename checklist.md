@@ -25,37 +25,37 @@
 - no errors, warnings, 404s
 
 ## ⚡ 2. performance & core web vitals
--🟠 lcp > 2.5s (slow main content load)
+- 🟠 lcp > 2.5s (slow main content load)
 - preload hero image
 - serve images as webp / avif
 - enable ssr / prerender
 - reduce ttfb (cdn, caching, fast hosting)
--🟠 inp > 200ms (sluggish interactions)
+- 🟠 inp > 200ms (sluggish interactions)
 - split js bundles (route-level)
 - defer non-critical scripts
 - break long tasks (settimeout, requestidlecallback)
 - remove unused js & libraries
--🟠 cls > 0.1 (layout jumping)
+- 🟠 cls > 0.1 (layout jumping)
 - always set width & height on images
 - reserve space for embeds/ads
 - `font-display: swap` @font-face
 - avoid injecting content above the fold
--🟠 High JS Blocking Time
+- 🟠 High JS Blocking Time
 - Remove unused JS
 - Load analytics after interaction
 - Prefer SSR over client-only rendering
 - Avoid heavy hydration on first load
--🟠 Unoptimized Images
+- 🟠 Unoptimized Images
 - Compress images
 - Use responsive images (srcset, sizes)
 - Lazy-load below-the-fold images
 - Preload only one critical image
--🟠 Poor Caching / Network
+- 🟠 Poor Caching / Network
 - Enable Brotli / gzip
 - Cache static assets (Cache-Control)
 - Use CDN
 - Reduce redirects
--🟠 Client-only SPA (SEO risk)
+- 🟠 Client-only SPA (SEO risk)
 - Enable SSR or prerender public pages
 - Ensure content is visible without JS
 - Verify rendered HTML with Googlebot UA
