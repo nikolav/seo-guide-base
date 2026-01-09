@@ -104,15 +104,15 @@
 - avoid client-only rendering for seo pages
 - test with curl -a googlebot url
 - ❌ meta tags rendered client-side only
-- render <title> & meta server-side
+- render (title) & meta server-side
 - use framework head management (ssr-compatible)
 - verify in gsc → url inspection
 - ❌ no h1 or headings in html
-- render <h1> in server html
+- render h1 in server html
 - one clear topic per page
 - avoid injecting headings after mount
 - ❌ internal links not crawlable
-- render <a href> links in html
+- render (a href) links in html
 - avoid js-only navigation for seo pages
 - add breadcrumbs (ssr)
 - ❌ googlebot sees different content than users
