@@ -63,7 +63,7 @@
 ## 📱 3. mobile-friendliness
 - ❌ page not mobile-friendly
 - use responsive design (@media queries)
-- set <meta name="viewport" content="width=device-width, initial-scale=1">
+- set (lt)meta name="viewport" content="width=device-width, initial-scale=1"(gt)
 - avoid fixed widths (use %, vw, flexbox, grid)
 - ❌ text too small / poor readability
 - base font size ≥ 16px
