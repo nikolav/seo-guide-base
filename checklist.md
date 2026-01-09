@@ -250,3 +250,18 @@
 - ❌ outdated or vulnerable dependencies
 - regularly update frameworks & libraries
 - monitor vulnerabilities (dependabot, snyk)
+## 🧬 12. structured data (schema)
+- ❌ missing schema on important pages
+- add appropriate schemas where relevant (article, product, faq, breadcrumb, organization)
+- ❌ schema doesn’t match visible content
+- ensure all schema fields exist on the page and are visible to users
+- follow the rule: no hidden text, no fake faqs, no inflated ratings
+- ❌ invalid or outdated schema markup
+- use json-ld format only
+- validate after every change with google rich results test
+- ❌ over-schematizing pages
+- add only schemas that truly apply to the page’s purpose
+- avoid stacking multiple unrelated schema types on one page
+- ❌ missing required properties
+- check required fields for each schema type (e.g. name, headline, image, mainentity)
+- use google’s documentation as the source of truth
