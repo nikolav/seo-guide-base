@@ -184,18 +184,34 @@
 - ❌ headings don’t match page intent
 - align h1 + main h2s with search intent (info, guide, product, etc.)
 - headings should answer why the user is here
-## 🖼️ 8. Image SEO
-- ❌ Missing or poor alt text
-- Add clear, descriptive alt attributes (describe the image purpose, not keyword stuffing)
-- ❌ Images too large / uncompressed
-- Compress images and serve modern formats (WebP, AVIF)
-- ❌ Incorrect image dimensions
-- Set explicit width & height to prevent layout shifts (CLS)
-- ❌ Images not lazy-loaded
-- Use loading="lazy" for below-the-fold images
-- ❌ Decorative images indexed unnecessarily
-- Use empty alt="" or CSS backgrounds for purely decorative visuals
-- ❌ No image sitemap / images missing from sitemap
-- Include important images in XML sitemaps
-- ❌ Images blocking LCP
-- Preload hero images and avoid lazy-loading above-the-fold images
+## 🖼️ 8. image seo
+- ❌ missing or poor alt text
+- add clear, descriptive alt attributes (describe the image purpose, not keyword stuffing)
+- ❌ images too large / uncompressed
+- compress images and serve modern formats (webp, avif)
+- ❌ incorrect image dimensions
+- set explicit width & height to prevent layout shifts (cls)
+- ❌ images not lazy-loaded
+- use loading="lazy" for below-the-fold images
+- ❌ decorative images indexed unnecessarily
+- use empty alt="" or css backgrounds for purely decorative visuals
+- ❌ no image sitemap / images missing from sitemap
+- include important images in xml sitemaps
+- ❌ images blocking lcp
+- preload hero images and avoid lazy-loading above-the-fold images
+## 🔗 9. internal linking
+- 1️⃣ orphan or weakly linked pages
+- issue: pages have no or very few internal links
+- fix: add contextual links from relevant, high-authority pages (content → content)
+- 2️⃣ poor contextual linking
+- issue: links are generic (“click here”) or irrelevant
+- fix: use descriptive anchor text that reflects page topic and intent
+- 3️⃣ missing breadcrumb navigation
+- issue: deep pages lack clear hierarchy
+- fix: implement breadcrumb navigation + breadcrumb schema
+- 4️⃣ broken internal links (4xx/5xx)
+- issue: internal links lead to errors
+- fix: crawl site, fix urls or 301-redirect removed pages
+- 5️⃣ over- or under-linking
+- issue: too many links dilute value, too few block crawling
+- fix: link only where contextually useful; keep navigation clean
