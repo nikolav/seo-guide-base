@@ -94,3 +94,36 @@
 - same content & metadata on mobile and desktop
 - same canonical urls
 - avoid m.example.com unless properly configured
+## 🧱 4. rendering strategy (js apps)
+- ❌ empty html / “loading…” content
+- enable ssr for public pages
+- or prerender static routes
+- move data fetching to server (not onmounted)
+- ❌ content depends on javascript execution
+- ensure main content exists in initial html
+- avoid client-only rendering for seo pages
+- test with curl -a googlebot url
+- ❌ meta tags rendered client-side only
+- render <title> & meta server-side
+- use framework head management (ssr-compatible)
+- verify in gsc → url inspection
+- ❌ no h1 or headings in html
+- render <h1> in server html
+- one clear topic per page
+- avoid injecting headings after mount
+- ❌ internal links not crawlable
+- render <a href> links in html
+- avoid js-only navigation for seo pages
+- add breadcrumbs (ssr)
+- ❌ googlebot sees different content than users
+- remove conditional rendering for bots/users
+- same html for users & crawlers
+- avoid cloaking patterns
+- ❌ slow lcp due to js rendering
+- ssr or prerender above-the-fold content
+- reduce js bundle size
+- inline critical content
+- ❌ overusing csr for public pages
+- ssr → content pages
+- ssg → static pages
+- csr → dashboards / tools
