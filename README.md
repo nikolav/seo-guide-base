@@ -18,14 +18,14 @@
 
 
 ## ⚙ tooling for optimal seo, @nuxt
-  "optimal SEO" nuxt stack, similar for other platforms
-  Marketing site / blog (SSR or prerender)
-    - @nuxtjs/seo
-    - nuxt-security
-    - @nuxtjs/fontaine
-    - @sentry/nuxt (optional but recommended)
-      Multilingual marketing site
-        all above + @nuxtjs/i18n
+"optimal SEO" nuxt stack, similar for other platforms
+Marketing site / blog (SSR or prerender)
+- @nuxtjs/seo
+- nuxt-security
+- @nuxtjs/fontaine
+- @sentry/nuxt (optional but recommended)
+  Multilingual marketing site
+    all above + @nuxtjs/i18n
 
 --
 
