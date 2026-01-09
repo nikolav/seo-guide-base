@@ -213,7 +213,7 @@
 - 5️⃣ over- or under-linking
 - issue: too many links dilute value, too few block crawling
 - fix: link only where contextually useful; keep navigation clean
-## 
+## 🌍 10. url structure & routing
 - • messy or non-readable urls
 - issue: ids, random strings, or unclear paths (/page?id=123)
 - fix: use short, descriptive, keyword-based urls (/services/web-design)
@@ -230,3 +230,23 @@
 - • deep or illogical routing
 - issue: urls too long or buried too deep (/a/b/c/d/page)
 - fix: keep depth shallow (≤3 levels) and structure by topic
+## 🔐 11. security & trust signals
+- ❌ https not enforced
+- force https with 301 redirects
+- enable hsts header
+- ❌ mixed content (http assets on https pages)
+- replace all asset urls with https
+- proxy third-party assets if https isn’t available
+- ❌ missing security headers
+- add essential headers
+  - content-security-policy
+  - x-frame-options
+  - x-content-type-options
+  - referrer-policy
+- ❌ no trust & identity signals
+- add about / contact / privacy policy pages
+- use organization / localbusiness schema
+- display real business info & social profiles
+- ❌ outdated or vulnerable dependencies
+- regularly update frameworks & libraries
+- monitor vulnerabilities (dependabot, snyk)
