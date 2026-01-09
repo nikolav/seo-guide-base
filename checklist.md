@@ -23,7 +23,6 @@
 - ✅ no crawl errors or loops
 - optimal gsc → crawl stats
 - no errors, warnings, 404s
-
 ## ⚡ 2. performance & core web vitals
 - 🟠 lcp > 2.5s (slow main content load)
 - preload hero image
@@ -59,7 +58,6 @@
 - enable ssr or prerender public pages
 - ensure content is visible without js
 - verify rendered html with googlebot ua
-
 ## 📱 3. mobile-friendliness
 - ❌ page not mobile-friendly
 - use responsive design (@media queries)
@@ -215,3 +213,20 @@
 - 5️⃣ over- or under-linking
 - issue: too many links dilute value, too few block crawling
 - fix: link only where contextually useful; keep navigation clean
+## 
+- • messy or non-readable urls
+- issue: ids, random strings, or unclear paths (/page?id=123)
+- fix: use short, descriptive, keyword-based urls (/services/web-design)
+- • duplicate urls for the same content
+- issue: same page accessible via multiple urls
+- (http/https, www/non-www, params, slashes)
+- fix: choose one canonical url and 301 redirect all variants to it
+- • trailing slash inconsistencies
+- issue: /page and /page/ both return 200
+- fix: pick one format and enforce it site-wide with 301 redirects
+- • unnecessary url parameters
+- issue: tracking or filter params create duplicate pages
+- fix: block irrelevant params, use canonicals, or configure them in search console
+- • deep or illogical routing
+- issue: urls too long or buried too deep (/a/b/c/d/page)
+- fix: keep depth shallow (≤3 levels) and structure by topic
