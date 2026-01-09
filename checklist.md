@@ -1,5 +1,21 @@
 # seo quick checklist
 
+## 📊 Analytics & Monitoring tools
+- [Google Search Console](https://search.google.com/search-console/welcome)
+- [Google Analytics (GA4)](https://analytics.google.com/analytics/web/#/a198874255p307797030/reports/intelligenthome)
+- [Google PageSpeed Insights](https://pagespeed.web.dev/)
+- [Bing Webmaster Tools](https://www.bing.com/webmasters/about)
+- [Semrush](https://www.semrush.com/)
+- [Ahrefs](https://ahrefs.com/)
+- [SE Ranking](https://seranking.com/)
+- [Moz Pro](https://moz.com/products/pro)
+- [Screaming Frog SEO Spider](https://www.screamingfrog.co.uk/seo-spider/)
+- [SEObility](https://www.seobility.net/en/)
+- [SEOptimer](https://www.seoptimer.com/)
+- [AccuRanker](https://www.accuranker.com/)
+- [Keyword.com](https://keyword.com/)
+
+
 ## 🚨 indexing & crawlability (seo blockers)
 - ✅ pages indexed in google
 - request indexing for important pages
