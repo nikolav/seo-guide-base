@@ -184,4 +184,18 @@
 - ❌ headings don’t match page intent
 - align h1 + main h2s with search intent (info, guide, product, etc.)
 - headings should answer why the user is here
-
+- 🖼️ 8. Image SEO
+- ❌ Missing or poor alt text
+- Add clear, descriptive alt attributes (describe the image purpose, not keyword stuffing)
+- ❌ Images too large / uncompressed
+- Compress images and serve modern formats (WebP, AVIF)
+- ❌ Incorrect image dimensions
+- Set explicit width & height to prevent layout shifts (CLS)
+- ❌ Images not lazy-loaded
+- Use loading="lazy" for below-the-fold images
+- ❌ Decorative images indexed unnecessarily
+- Use empty alt="" or CSS backgrounds for purely decorative visuals
+- ❌ No image sitemap / images missing from sitemap
+- Include important images in XML sitemaps
+- ❌ Images blocking LCP
+- Preload hero images and avoid lazy-loading above-the-fold images
