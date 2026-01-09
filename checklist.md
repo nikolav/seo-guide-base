@@ -165,3 +165,23 @@
 - update facts, screenshots, examples
 - add timestamps, sources, or author info where relevant
 - refresh top pages at least yearly
+## 🧩 7. headings & semantic structure
+- ❌ missing or multiple h1s
+- use exactly one h1 per page
+- make it descriptive and aligned with the page’s primary intent
+- ❌ headings used for styling (not meaning)
+- use headings only for structure, not visual size
+- control appearance with css, not heading level
+- ❌ skipped heading levels (h1 → h3, h4)
+- follow logical order: h1 → h2 → h3
+- treat headings like an outline, not decoration
+- ❌ weak or generic headings
+- make headings descriptive and topic-specific
+- include natural keywords where relevant (no stuffing)
+- ❌ one long text block with no structure
+- break content into sections with clear h2s
+- each section = one subtopic or question
+- ❌ headings don’t match page intent
+- align h1 + main h2s with search intent (info, guide, product, etc.)
+- headings should answer why the user is here
+
