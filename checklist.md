@@ -144,3 +144,24 @@
 - verify x-robots-tag headers
 - ✅ 6. missing og / social meta (high ctr impact)
 - add og title, description & image
+## 🧠 6. content quality & search intent
+- ❌ 1. content doesn’t match search intent
+- identify intent: informational / commercial / transactional
+- rewrite intro to answer the query in the first 5–10 seconds
+- remove off-topic sections
+- ❌ 2. thin or low-value content
+- expand to cover the topic fully (examples, steps, faqs)
+- add original insights, not filler text
+- merge or remove pages under ~300 words unless justified
+- ❌ 3. unclear topic focus (keyword overlap)
+- one primary keyword / intent per page
+- merge overlapping pages
+- use clear h1 + supporting h2s aligned to intent
+- ❌ 4. weak headings & structure
+- single clear h1 describing the page purpose
+- logical h2/h3 hierarchy
+- use lists, tables, short paragraphs
+- ❌ 5. outdated or untrustworthy content
+- update facts, screenshots, examples
+- add timestamps, sources, or author info where relevant
+- refresh top pages at least yearly
