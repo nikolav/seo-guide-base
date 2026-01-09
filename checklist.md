@@ -40,24 +40,57 @@
 - reserve space for embeds/ads
 - `font-display: swap` @font-face
 - avoid injecting content above the fold
-- 🟠 High JS Blocking Time
-- Remove unused JS
-- Load analytics after interaction
-- Prefer SSR over client-only rendering
-- Avoid heavy hydration on first load
-- 🟠 Unoptimized Images
-- Compress images
-- Use responsive images (srcset, sizes)
-- Lazy-load below-the-fold images
-- Preload only one critical image
-- 🟠 Poor Caching / Network
-- Enable Brotli / gzip
-- Cache static assets (Cache-Control)
-- Use CDN
-- Reduce redirects
-- 🟠 Client-only SPA (SEO risk)
-- Enable SSR or prerender public pages
-- Ensure content is visible without JS
-- Verify rendered HTML with Googlebot UA
+- 🟠 high js blocking time
+- remove unused js
+- load analytics after interaction
+- prefer ssr over client-only rendering
+- avoid heavy hydration on first load
+- 🟠 unoptimized images
+- compress images
+- use responsive images (srcset, sizes)
+- lazy-load below-the-fold images
+- preload only one critical image
+- 🟠 poor caching / network
+- enable brotli / gzip
+- cache static assets (cache-control)
+- use cdn
+- reduce redirects
+- 🟠 client-only spa (seo risk)
+- enable ssr or prerender public pages
+- ensure content is visible without js
+- verify rendered html with googlebot ua
 
-## 📱 3. Mobile-Friendliness
+## 📱 3. mobile-friendliness
+- ❌ page not mobile-friendly
+- use responsive design (@media queries)
+- set <meta name="viewport" content="width=device-width, initial-scale=1">
+- avoid fixed widths (use %, vw, flexbox, grid)
+- ❌ text too small / poor readability
+- base font size ≥ 16px
+- use proper line height (1.4–1.6)
+- avoid tiny ui text (menus, footers)
+- ❌ buttons & links too close
+- touch targets ≥ 48×48px
+- add spacing between links/buttons
+- avoid inline text links too close together
+- ❌ slow loading on mobile
+- compress images (webp/avif)
+- enable lazy loading (loading="lazy")
+- minify css/js, remove unused code
+- use cdn + caching headers
+- ❌ content blocked on mobile
+- ensure content is visible in html (ssr if spa)
+- avoid hiding core content with display:none
+- test with googlebot mobile ua
+- ❌ intrusive popups / interstitials
+- remove full-screen popups
+- use small banners or inline ctas
+- delay non-essential modals
+- ❌ wrong mobile viewport scaling
+- use correct viewport meta tag
+- don’t disable zoom (user-scalable=no)
+- test on real devices
+- ❌ mobile & desktop content mismatch
+- same content & metadata on mobile and desktop
+- same canonical urls
+- avoid m.example.com unless properly configured
