@@ -24,8 +24,8 @@ Marketing site / blog (SSR or prerender)
 - nuxt-security
 - @nuxtjs/fontaine
 - @sentry/nuxt (optional but recommended)
-  Multilingual marketing site
-    all above + @nuxtjs/i18n
+  - Multilingual marketing site
+      - all above + @nuxtjs/i18n
 
 --
 
