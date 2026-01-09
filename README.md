@@ -2,7 +2,7 @@
 
 ![indexing](./images/vqsoefstwft.jpg)
 
----
+--
 
 ## 🧰 SEO Tools (Always Verify with GSC)
 - 🔍 https://search.google.com/search-console
@@ -16,7 +16,18 @@
   https://developers.google.com/search/docs/appearance/structured-data
 - 📊 CWV reference: https://web.dev/articles/vitals
 
----
+
+## ⚙ tooling for optimal seo, @nuxt
+  "optimal SEO" nuxt stack, similar for other platforms
+  Marketing site / blog (SSR or prerender)
+    - @nuxtjs/seo
+    - nuxt-security
+    - @nuxtjs/fontaine
+    - @sentry/nuxt (optional but recommended)
+      Multilingual marketing site
+        all above + @nuxtjs/i18n
+
+--
 
 ## 🚨 1. Indexing & Crawlability (BLOCKER)
 > If this fails, nothing else matters.
@@ -49,7 +60,7 @@
   - SSR / prerender enabled
   - Routes return **HTML with content**
 
----
+--
 
 ## ⚡ 2. Performance & Core Web Vitals
 ![Performance](./images/raxlevzzjny.jpg)
@@ -61,7 +72,7 @@
 - 🌍 CDN + HTTP/2/3
 - 📐 Set width/height to prevent CLS
 
----
+--
 
 ## 📱 3. Mobile-Friendliness
 ![mobile-friendly](./images/nioaaxozvcu.jpg)
@@ -75,7 +86,7 @@
   - Tap targets ≥ 48px
   - LCP < 2.5s on mobile
 
----
+--
 
 ## 🧱 4. Rendering Strategy (JS Apps)
 ![render strategy](./images/sbyueirxnia.jpg)
@@ -85,7 +96,7 @@
 - SSG → Best SEO if possible
 - Hybrid / ISR → Modern sweet spot
 
----
+--
 
 ## 🏷️ 5. Titles, Meta & Head Tags
 ![tags](./images/opnnjitufip.jpg)
@@ -94,7 +105,7 @@
 - Meta description: 150–160 chars, value-focused
 - Canonical: prevent duplicate URLs
 
----
+--
 
 ## 🧠 6. Content Quality & Search Intent
 > Google ranks answers, not keywords.
@@ -104,14 +115,14 @@
 - Answer real user questions
 - Refresh outdated content
 
----
+--
 
 ## 🧩 7. Headings & Semantic Structure
 - One clear `<h1>`
 - Logical heading hierarchy
 - Replace div-soup with semantic HTML
 
----
+--
 
 ## 🖼️ 8. Image SEO
 - Meaningful `alt` text
@@ -119,23 +130,24 @@
 - Modern formats
 - Lazy-load offscreen images
 
----
+--
 
 ## 🔗 9. Internal Linking
 - Contextual internal links
 - Breadcrumb navigation
 - Fix broken links
 
----
+--
 
 ## 🌍 10. URL Structure & Routing
 - Human-readable URLs
 - Consistent trailing slashes
 - 301 redirect duplicates
 
----
+--
 
 ## 🔐 11. Security & Trust Signals
+trust and compliance
 - 🔒 HTTPS enforced + 301
 - 🚫 No mixed content
 - 🛡 Security headers:
@@ -144,8 +156,9 @@
   Content-Security-Policy: upgrade-insecure-requests
   X-Content-Type-Options: nosniff
   ```
+  - nuxt module: Nuxt Security
 
----
+--
 
 ## 🧬 12. Structured Data (Schema)
 - Add only visible content schemas
@@ -153,21 +166,21 @@
 - Golden rule:
   > If users can’t see it — don’t schema it
 
----
+--
 
 ## 🌐 13. International / Local SEO
 - Correct `hreflang`
 - Localized content
 - Optimized Google Business Profile
 
----
+--
 
 ## 📊 14. Analytics & Monitoring
 - Google Analytics
 - Google Search Console
 - Monitor coverage, CWV, rankings & CTR
 
----
+--
 
 ## 🔢 Priority Order
 1️⃣ Indexing  
