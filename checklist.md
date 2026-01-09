@@ -184,7 +184,7 @@
 - ❌ headings don’t match page intent
 - align h1 + main h2s with search intent (info, guide, product, etc.)
 - headings should answer why the user is here
-- 🖼️ 8. Image SEO
+## 🖼️ 8. Image SEO
 - ❌ Missing or poor alt text
 - Add clear, descriptive alt attributes (describe the image purpose, not keyword stuffing)
 - ❌ Images too large / uncompressed
